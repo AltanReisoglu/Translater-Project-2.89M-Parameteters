@@ -1,0 +1,120 @@
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> Daha ileri gitmeden önce, beni dinleyin. <EOS>
+<BOS> Herkes: <EOS>
+<BOS> Konuş, konuş. <EOS>
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> Açlıktan ölmek yerine, ölmeye razı mısınız? <EOS>
+<BOS> Herkes: <EOS>
+<BOS> Razıyız, razıyız. <EOS>
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> Öncelikle şunu biliyorsunuz ki, Caius Marcius halkın en büyük düşmanıdır. <EOS>
+<BOS> Herkes: <EOS>
+<BOS> Biliyoruz, biliyoruz. <EOS>
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> Onu öldürelim ve tahılı kendi istediğimiz fiyattan alalım. <EOS>
+<BOS> Bu bir karar mı? <EOS>
+<BOS> Herkes: <EOS>
+<BOS> Daha fazla konuşmayalım; yapılsın bu iş: hadi, hadi! <EOS>
+<BOS> İkinci Yurttaş: <EOS>
+<BOS> Bir söz, iyi yurttaşlar. <EOS>
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> Biz yoksul yurttaşlar olarak görülüyoruz, patrikler ise iyi. <EOS>
+<BOS> Yetkileriyle tıkandıkları her şeyi bize verseler, <EOS>
+<BOS> ve bu bizim için faydalı olsa, insanca davrandıklarını düşünebilirdik; <EOS>
+<BOS> ama bizi fazla pahalı buluyorlar. <EOS>
+<BOS> Bizi zayıf düşüren yoksulluk, onların bolluğunun bir listesi gibi. <EOS>
+<BOS> Bizim çektiğimiz acılar onların kazancı oluyor. <EOS>
+<BOS> Buna mızraklarımızla karşılık verelim, tırmık olmadan önce. <EOS>
+<BOS> Tanrılar bilir ki, bunu ekmek açlığıyla söylüyorum, <EOS>
+<BOS> intikam susuzluğuyla değil. <EOS>
+<BOS> İkinci Yurttaş: <EOS>
+<BOS> Özellikle Caius Marcius’a mı saldırmayı düşünüyorsunuz? <EOS>
+<BOS> Herkes: <EOS>
+<BOS> Önce ona: O tam bir köpek, halkı aşağılayan biri. <EOS>
+<BOS> İkinci Yurttaş: <EOS>
+<BOS> Peki, onun ülkesine yaptığı hizmetleri hiç düşündünüz mü? <EOS>
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> Evet, çok iyi biliyoruz; bu yüzden yaptıkları için ona güzel bir itibar vermeye razıyız, ama bunu kendisi gururla ödüllendiriyor. <EOS>
+<BOS> İkinci Yurttaş: <EOS>
+<BOS> Hayır, ama kötü niyetle konuşmayın. <EOS>
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> Size diyorum ki, ünlü şekilde yaptığı her şeyi, sırf bu amaçla yaptı: <EOS>
+<BOS> Hassas vicdanlı adamlar, onun bunları ülkesine hizmet için yaptığını söyleyebilir; <EOS>
+<BOS> ama o annesini memnun etmek ve kısmen gurur duymak için yaptı. <EOS>
+<BOS> Ve bu gurur, onun erdeminin zirvesine kadar uzanır. <EOS>
+<BOS> İkinci Yurttaş: <EOS>
+<BOS> Doğasında düzeltemeyeceği bir şeyi siz onda kusur olarak görüyorsunuz. <EOS>
+<BOS> Onun açgözlü olduğunu kesinlikle söylememelisiniz. <EOS>
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> Eğer söylememem gerekiyorsa, yine de suçlamalarda bulunmaktan geri kalmam. <EOS>
+<BOS> O, tekrar tekrar anlatılacak kadar çok kusura sahip. <EOS>
+<BOS> Bu bağırışlar neyle ilgili? Şehrin diğer tarafı isyan etmiş: <EOS>
+<BOS> Neden burada boş konuşuyoruz? Hadi, Senato’ya gidelim! <EOS>
+<BOS> Herkes: <EOS>
+<BOS> Hadi, hadi! <EOS>
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> Durun! Kim geliyor buraya? <EOS>
+<BOS> İkinci Yurttaş: <EOS>
+<BOS> Değerli Menenius Agrippa; halkı her zaman seven biri. <EOS>
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> O oldukça dürüst bir adam; keşke diğerleri de öyle olsa! <EOS>
+<BOS> Menenius: <EOS>
+<BOS> Ne iş var, yurttaşlarım? Bu sopalar ve değneklerle nereye gidiyorsunuz? <EOS>
+<BOS> Mesele ne? Lütfen söyleyin. <EOS>
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> Bizim işimiz Senato tarafından bilinmiyor değil; <EOS>
+<BOS> onlara ne yapmayı düşündüğümüzü iki haftadır ima ettik, <EOS>
+<BOS> şimdi bunu eylemlerimizle göstereceğiz. <EOS>
+<BOS> Fakir davacıların güçlü nefesleri olduğu söylenir; <EOS>
+<BOS> onlar bizim güçlü kollarımız olduğunu bilecekler. <EOS>
+<BOS> Menenius: <EOS>
+<BOS> Ah, dostlarım, dürüst komşularım, <EOS>
+<BOS> kendinizi yok mu edeceksiniz? <EOS>
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> Edemeyiz efendim, zaten yok olmuş durumdayız. <EOS>
+<BOS> Menenius: <EOS>
+<BOS> Size söylüyorum, dostlar, patriklerin size çok büyük bir şefkati var. <EOS>
+<BOS> Sizin ihtiyaçlarınız, bu kıtlıkta çektiğiniz sıkıntılar, <EOS>
+<BOS> Roma devletine karşı değneklerinizi kaldırmaktansa, <EOS>
+<BOS> onları gökyüzüne kaldırmaya benzeyecektir. <EOS>
+<BOS> Devletin düzeni, sizinkinden daha güçlü <EOS>
+<BOS> on binlerce bağı çözerek yoluna devam edecek. <EOS>
+<BOS> Bu kıtlık için tanrılar suçlanmalıdır, patrikler değil. <EOS>
+<BOS> Onlara diz çökün, silahlarınıza değil. Ah, yazık, <EOS>
+<BOS> felaket sizi alıp başka bir yere sürüklemiş, <EOS>
+<BOS> orada daha fazla dert sizi bekliyor ve siz, <EOS>
+<BOS> size baba gibi bakan devletin yöneticilerine iftira atıyorsunuz, <EOS>
+<BOS> onlara düşmanmış gibi lanet ediyorsunuz. <EOS>
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> Bizi umursadıkları mı? Doğru, gerçekten! <EOS>
+<BOS> Bizi hiçbir zaman umursamadılar: <EOS>
+<BOS> Bizi açlıktan ölmeye terk ederken, <EOS>
+<BOS> ambarları tahılla dolup taşıyor; <EOS>
+<BOS> tefeciliği desteklemek için yasalar çıkarıyorlar, <EOS>
+<BOS> zenginlere karşı getirilen faydalı yasaları sürekli iptal ediyorlar <EOS>
+<BOS> ve fakirleri zincirlemek ve kısıtlamak için <EOS>
+<BOS> her gün daha acımasız kurallar koyuyorlar. <EOS>
+<BOS> Savaşlar bizi yok etmezse, onlar edecek; <EOS>
+<BOS> işte bize duydukları sevgi bu kadar. <EOS>
+<BOS> Menenius: <EOS>
+<BOS> Ya kendinizi aşırı kötü niyetli olmakla suçlayacaksınız <EOS>
+<BOS> ya da aptallıkla itham edileceksiniz. <EOS>
+<BOS> Size hoş bir hikâye anlatacağım: <EOS>
+<BOS> belki daha önce duymuşsunuzdur; <EOS>
+<BOS> ama amacımı açıklamak için bunu tekrar anlatmayı göze alacağım. <EOS>
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> Pekala, dinleyeceğim, efendim; <EOS>
+<BOS> ama hikâyeyle bizim utancımızı geçiştirmeye çalışacağınızı düşünmeyin: <EOS>
+<BOS> yine de, lütfen anlatın. <EOS>
+<BOS> Menenius: <EOS>
+<BOS> Bir zamanlar, bedenin tüm organları <EOS>
+<BOS> karınla isyan etmiş ve onu şu şekilde suçlamış: <EOS>
+<BOS> sanki bedenin ortasında boş ve hareketsiz bir çukurmuş, <EOS>
+<BOS> yiyecekleri yığar ama diğer organlar gibi çalışmazmış; <EOS>
+<BOS> oysa diğer organlar görür, duyar, düşünür, talimat verir, yürür, hisseder <EOS>
+<BOS> ve bedenin ortak iştahı ve arzusu için çalışırmış. <EOS>
+<BOS> Karın da onlara şu şekilde cevap vermiş-- <EOS>
+<BOS> Birinci Yurttaş: <EOS>
+<BOS> Peki efendim, karın ne cevap verdi? <EOS>
+<BOS> Menenius: <EOS>
+<BOS> Efendim, size anlatacağım. <EOS>
