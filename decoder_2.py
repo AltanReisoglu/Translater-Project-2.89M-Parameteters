@@ -12,16 +12,18 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import time
 import inspect
+import pandas as pd
+import numpy as np
 # hyperparameters
 batch_size = 32 # how many independent sequences will we process in parallel?
-block_size = 64 # what is the maximum context length for predictions?
+block_size =64  # what is the maximum context length for predictions?
 max_iters = 2000
 eval_interval = 100
 learning_rate = 1e-3
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
-n_embd = 128
-n_head = 4
+n_embd = 512
+n_head = 16
 n_layer = 4
 dropout = 0.0
 # ------------
@@ -33,10 +35,12 @@ dropout = 0.0
 # wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
 
 
-with open("sources/decoder_datas_for_ai.txt", 'r', encoding='utf-8') as f:
+"""with open("sources/decoder_datas_for_ai.txt", 'r', encoding='utf-8') as f:
     text = f.read()
-strings = text.split("\n")
+strings = text.split("\n")"""
 
+strings=pd.read_csv("sources/translator_source_1.csv")
+strings=list(np.array(strings["tr"]))[:50000]
 # Tokenizer işlemi
 tokenizer = Tokenizer()
 tokenizer.fit_on_texts(strings)
@@ -342,12 +346,12 @@ class AltanTranslator(nn.Module):
 model = AltanTranslator()
 m = model.to(device)
 # print the number of parameters in the model
-print(sum(p.numel() for p in m.parameters())/1e6, 'M parameters')
+print(sum(p.numel() for p in m.parameters())/1e6, 'M parameters for decoder')
 import math
 max_lr = 6e-4
 min_lr = max_lr * 0.1
 warmup_steps = 715
-max_steps = 3000 # 19,073 steps is ~1 epoch, if data is 10B tokens and batch size 0.5M tokens
+max_steps =6000  # 19,073 steps is ~1 epoch, if data is 10B tokens and batch size 0.5M tokens
 def get_lr(it):
     # 1) linear warmup for warmup_iters steps
     if it < warmup_steps:
@@ -364,9 +368,11 @@ def get_lr(it):
 optimizer = model.configure_optimizers(weight_decay=0.1, learning_rate=6e-4, device_type=device)
 
 
-grad_accum_steps=4
+grad_accum_steps=16
 num_steps = len(data_encode) // batch_size
-for epoch in range(2000):
+print(len(data))
+import sys;sys.exit()
+for step in range(6250*2):#for 2 epoch
     model.train()
     optimizer.zero_grad()
     loss_accum = 0.0
@@ -397,7 +403,7 @@ for epoch in range(2000):
         norm = torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
 
             # Learning rate ayarı
-        lr = get_lr(epoch)
+        lr = get_lr(step)
         for param_group in optimizer.param_groups:
             param_group["lr"] = lr
 
@@ -408,7 +414,7 @@ for epoch in range(2000):
             torch.cuda.synchronize()  # GPU işlemlerini tamamlamasını bekle
         loss_accum += loss.detach()    
         if(micro_step%5==False):
-            print(f"Epoch {epoch+1} | Loss: {loss_accum.item():.6f} | LR: {lr:.4e} | Grad Norm: {norm:.4f}")
+            print(f"Epoch {step+1} | Loss: {loss_accum.item():.6f} | LR: {lr:.4e} | Grad Norm: {norm:.4f}")
 
 
 
