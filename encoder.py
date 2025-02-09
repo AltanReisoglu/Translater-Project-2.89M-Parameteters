@@ -9,6 +9,8 @@ import re
 from torch.utils.data import DataLoader, random_split
 from tqdm import tqdm
 import time
+import pandas as pd
+import numpy as np
 batch_size = 32 # how many independent sequences will we process in parallel?
 block_size = 64 # what is the maximum context length for predictions?
 max_iters = 2000
@@ -16,20 +18,20 @@ eval_interval = 100
 learning_rate = 1e-4
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
-n_embd = 128
-n_head = 4
+n_embd = 512
+n_head = 16
 n_layer = 6
 dropout = 0.0
 
-with open("sources/encoder_datas_for_ai.txt", 'r', encoding='utf-8') as f:
-    text = f.read()
-
-strings = text.split("\n")
+strings=pd.read_csv("sources/translator_source_1.csv")
+strings=list(np.array(strings["en"]))[:50000]
 
 # Tokenizer işlemi
 tokenizer = Tokenizer()
 tokenizer.fit_on_texts(strings)
 stoi = tokenizer.word_index
+
+
 itos = dict(zip(stoi.values(), stoi.keys()))
 vocab_size = len(stoi)+1
 
@@ -39,6 +41,7 @@ padsequences = pad_sequences(sequences, maxlen=block_size, padding='pre')
 
 # Tensor formatına çevirme (flatten ile tek boyuta indirgeme)
 data_en = torch.tensor(padsequences, dtype=torch.long).flatten()
+
 
 
 
@@ -305,7 +308,7 @@ class Encoder(nn.Module):
 
 m=Encoder().to(device)
 
-print(sum(p.numel() for p in m.parameters())/1e6, 'M parameters')
+print(sum(p.numel() for p in m.parameters())/1e6, 'M parameters for encoder')
 
 
 
